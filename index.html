@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Hackathon WebApp Development First Meeting</title>
+    <meta name="author" content="Sophia Yu">
+    <meta name="description" content="Meeting Notes Setup with HTML">
+    <link rel="icon" type="image/x-icon" href="pictures/favicon.png">
+  </head>
+  <body>
+    <header>
+        <h1>Hackathon WebApp Development - First Meeting</h1>
+        <hr>
+        <p><b>Recorded By: </b>Sophia Yu</p>
+        <p><i>This is the first meeting of this season. <br>The team has already met each other prior, so we will be moving forward with logistics today.</i></p>
+        <nav>
+            <h3>Navigation Bar</h3>
+            <a href="#date"> Date | </a>
+            <a href="#attendance"> Attendance | </a>
+            <a href="#agenda">Agenda | </a>
+            <a href="#unfinished">Unfinished Business | </a>
+            <a href="#upcoming">Upcoming Tasks | </a>
+            <a href="#miscellaneous">Miscellaneous Comments | </a>
+            <a href="#pictures">Pictures/Diagrams | </a>
+            <a href="#recordings">Recordings | </a>
+            <a href="#recordings">Feedback Form</a>
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <div class="stats">
+            <section id="date">
+                <h2>Date</h2>
+                <ul>
+                    <li><b>Day: </b>April 12, 2023</li>
+                    <li><b>Start Time: </b>10:00am</li>
+                    <li><b>End Time: </b>12:00pm</li>
+                </ul>
+            </section>
+            <hr>
+            <section id="attendance">
+                <h2>Attendance</h2>
+                <ul>
+                    <li><b>Headcount: </b> 7</li>
+                    <li><b>Attendees: </b> Sophia Yu, Catherine Du, Eric Dong, Trisha Tong, Andrew Onozuka, Nathan Huey, Sam Au</li>
+                </ul>
+            </section>
+            <hr>
+        </div>
+        <section id="agenda">
+            <h2>Agenda</h2>
+            <p>The goal of today's meeting is just to start brainstorming <span>what the team wants to achieve in this web app.</span></p>
+        </section>
+        <hr>
+        <section id="unfinished">
+            <h2>Unfinished Business</h2>
+            <ol>
+                <li><strong><em>Exchange discord and other contact info</em></strong></li>
+                <li>Finish planning first hangout</li>
+                <li>Introductions continued: share what experiences each person has and what types of technical skills they have</li>
+            </ol>
+        </section>
+        <hr>
+        <section id="upcoming">
+            <h2>Upcoming Tasks</h2>
+            <ol>
+                <li>Introduce and summarize the goal of this project</li>
+                <li><strong><em>Brainstorm themes</em></strong></li>
+                <li>
+                    <details>
+                        <summary>[drop-down] Start listing features that would like to be seen on the web app</summary>
+                        <ul>
+                            <li>Tutorials</li>
+                            <li>Important info about the event</li>
+                            <li>Hackathon schedule</li>
+                            <li>Q&A</li>
+                            <li>Team information</li>
+                        </ul>
+                    </details>
+                </li>
+                <li>
+                    <details>
+                        <summary>[drop-down] Discuss roles and gauge interests from each person</summary>
+                        <p>Everyone's experiences are pretty similar, and all are willing to take on any role.</p>
+                    </details>
+                </li>
+            </ol>
+        </section>
+        <hr>
+        <section id="miscellaneous">
+            <h2>Miscellaneous Comments</h2>
+            <ul>
+                <li><b>Goal of Project: </b>This web app will be a place where hackathon participants can keep track of their profile and progress. 
+                    Each participant will have their own account.</li>
+                <li><a href="https://www.trio.dev/blog/web-app-development" target="_blank">Web App Development in 2023: Everything You Need to Know</a></li>
+                <li><a href="https://www.upwork.com/resources/what-is-web-application-development" target="_blank">What Is Web Application Development and How Do I Get Started?</a></li>
+            </ul>
+        </section>
+        <hr>
+        <section id="pictures">
+            <h2>Pictures/Diagrams</h2>
+            <img src="pictures/webapp1.png" alt="webabbprocess1" width="500">
+            <img src="pictures/webapp2.png" alt="webabbprocess2" width="300">
+            <img src="pictures/meme1.png" alt="meme1" width="300">
+        </section>
+        <hr>
+        <section id="recordings">
+            <h2>Recordings</h2>
+            <video width="320" height="240" autoplay muted>
+                <source src="recordings/video.mp4" type="video/mp4">
+            </video>
+            <p><i>turn up for sound!</i></p>
+            <audio controls>
+                <source src="recordings/audio.mp3" type="audio/mpeg">
+            </audio>
+        </section>
+        <hr>
+        <section id="feedback">
+            <h2>Feedback Form</h2>
+            <form>
+                <fieldset>
+                    <h3>Date</h3>
+                    <label for="date">Date:</label>
+                    <input type="date" id="date" name="date">
+                    <h3>Personal Information</h3>
+                    <label for="fname">First Name:</label>
+                    <input type="text">
+                    <br><br>
+                    <label for="lname">Last Name:</label>
+                    <input type="text">
+                    <br><br>
+                    <label for="contact">What is your best form of contact?</label><br>
+                    <input type="radio" name="contact">
+                    <label>Email</label><br>
+                    <input type="radio" name="contact">
+                    <label>Discord</label><br>
+                    <input type="radio" name="contact">
+                    <label>Txt Msg</label><br>
+
+                    <h3>Feedback</h3>
+                    <label for="feedback">What feedback would you like to give?</label><br>
+                    <textarea></textarea>
+                    <br><br>
+                    <label for="consent">Are you okay with us sharing this feedback with the rest of the team, if appropriate?</label>
+                    <input list="consentlist" name="consent" id="consent">
+
+                    <datalist id="consentlist">
+                    <option value="Yes">
+                    <option value="No">
+                    </datalist>
+                    <br><br>
+                    <label for="importance">If applicable, how important do you need this to be addressed?<br>(1 being of most importance)</label>
+                    <select>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="2">3</option>
+                    </select>
+                    <option></option>
+                    <button>Submit</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+  </body>
+</html>
