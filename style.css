@@ -1,0 +1,23 @@
+body {
+    background-color: #d0dff5;
+}
+
+h1 {
+    color: hsl(212, 42%, 33%);
+}
+
+h2 {
+    color: #507bad;
+}
+
+header {
+    color: #7c9bbf;
+}
+
+nav, a{
+    color: rgb(50,107,168);
+}
+
+form {
+    background-color: white;
+}
