@@ -2,22 +2,72 @@ body {
     background-color: #d0dff5;
 }
 
+header {
+    color: #7c9bbf;
+    margin: 5%;
+    margin-top: 10px;
+    margin-bottom:50px;
+    text-align: center;
+}
+
 h1 {
     color: hsl(212, 42%, 33%);
+    margin-top: 40px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.recordedby {
+    text-decoration: underline wavy;
 }
 
 h2 {
     color: #507bad;
 }
 
-header {
-    color: #7c9bbf;
+.headerline {
+    height: 1px;
+    border-style: groove;
+    border-width: 5px;
+    border-radius: 100%;
+}
+
+.break {
+    height: 1px;
+    background-color: #9db9e3;
+    border: none;
+}
+
+hr {
+    height: 1px;
+    border: none;
+    border-style: dotted;    
+    border-color: #a1bde6;
+    border-width: 4px;
+
 }
 
 nav, a{
     color: rgb(50,107,168);
+    margin: auto;
 }
 
+main {
+    margin-left: 2%;
+}
+
+section {
+    margin-bottom: 3%;
+}
+
+img {
+    padding-left: 1cm;
+    padding-bottom: 1cm;
+}
+
+audio {
+    padding: 0 0 1cm;
+}
 form {
     background-color: white;
 }
