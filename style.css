@@ -18,6 +18,10 @@ h1 {
     position: relative;
 }
 
+h1:active {
+    color: white;
+}
+
 .recordedby {
     text-decoration: underline wavy;
 }
@@ -25,6 +29,10 @@ h1 {
 h2 {
     color: #507bad;
     position: sticky;
+}
+
+h2:active {
+    color: white;
 }
 
 .headerline {
@@ -52,7 +60,12 @@ hr {
 nav, a{
     color: rgb(50,107,168);
     margin: auto;
-    display: inline-block flex;
+    display: inline-block;
+    display: flex;
+}
+
+a:hover {
+    color: #94b4d6;
 }
 
 main {
