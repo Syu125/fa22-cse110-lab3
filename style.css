@@ -1,3 +1,8 @@
+@font-face {
+    font-family: raleway;
+    src: url(Raleway-Regular.woff);
+}
+
 body {
     background-color: #d0dff5;
 }
@@ -16,6 +21,7 @@ h1 {
     margin-left: 20px;
     text-align: center;
     position: relative;
+    font-family: raleway;
 }
 
 h1:active {
@@ -36,12 +42,24 @@ h1:active {
 h2 {
     color: #507bad;
     position: sticky;
+    font-family: raleway;
 }
 
 h2:active {
     color: white;
 }
 
+h3 {
+    font-family: raleway;
+}
+
+p {
+    font-family: raleway;
+}
+
+li {
+    font-family: raleway;
+}
 .headerline {
     height: 1px;
     border-style: groove;
@@ -74,6 +92,7 @@ nav{
 
 a {
     color: rgb(50,107,168);
+    font-family: raleway;
 }
 
 a:hover {
@@ -108,6 +127,7 @@ audio {
 }
 form {
     background-color: white;
+    font-family: raleway;
 }
 
 @media screen and (max-width: 1000px) {
