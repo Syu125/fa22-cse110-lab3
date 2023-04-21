@@ -15,6 +15,7 @@ h1 {
     margin-top: 40px;
     margin-left: 20px;
     text-align: center;
+    position: relative;
 }
 
 .recordedby {
@@ -23,6 +24,7 @@ h1 {
 
 h2 {
     color: #507bad;
+    position: sticky;
 }
 
 .headerline {
@@ -50,6 +52,7 @@ hr {
 nav, a{
     color: rgb(50,107,168);
     margin: auto;
+    display: inline-block flex;
 }
 
 main {
@@ -63,6 +66,13 @@ section {
 img {
     padding-left: 1cm;
     padding-bottom: 1cm;
+    max-width: 50%;
+    max-height: 50%;
+    display: inline;
+}
+
+video {
+    width: 50%;
 }
 
 audio {
