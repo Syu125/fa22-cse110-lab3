@@ -1,12 +1,34 @@
+/* font for page */
 @font-face {
     font-family: raleway;
     src: url(Raleway-Regular.woff);
 }
 
+/* entire page background color */
 body {
     background-color: #d0dff5;
 }
 
+/* specify font for paragraphs and lists */
+p {
+    font-family: raleway;
+}
+
+li {
+    font-family: raleway;
+}
+
+/* style section line breaks */
+hr {
+    height: 1px;
+    border: none;
+    border-style: dotted;    
+    border-color: #a1bde6;
+    border-width: 4px;
+
+}
+
+/* style for title and all headers */
 header {
     color: #7c9bbf;
     margin: 5%;
@@ -32,34 +54,7 @@ h1:active {
     text-decoration: underline wavy;
 }
 
-.stats {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-flow: row wrap;
-    background-color: #deeafc;
-}
-h2 {
-    color: #507bad;
-    position: sticky;
-    font-family: raleway;
-}
-
-h2:active {
-    color: white;
-}
-
-h3 {
-    font-family: raleway;
-}
-
-p {
-    font-family: raleway;
-}
-
-li {
-    font-family: raleway;
-}
+/* style title header line */
 .headerline {
     height: 1px;
     border-style: groove;
@@ -67,21 +62,14 @@ li {
     border-radius: 100%;
 }
 
+/* style header line */
 .break {
     height: 1px;
     background-color: #9db9e3;
     border: none;
 }
 
-hr {
-    height: 1px;
-    border: none;
-    border-style: dotted;    
-    border-color: #a1bde6;
-    border-width: 4px;
-
-}
-
+/* style navigation bar */
 nav{
     margin: auto;
     display: inline-block;
@@ -103,6 +91,31 @@ main {
     margin-left: 2%;
 }
 
+/* specific styles for section headers */
+h2 {
+    color: #507bad;
+    position: sticky;
+    font-family: raleway;
+}
+
+h2:active {
+    color: white;
+}
+
+h3 {
+    font-family: raleway;
+}
+
+/* style for date and attendance sections*/
+.stats {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
+    background-color: #deeafc;
+}
+
+/* format agenda sections */
 .logistics {
     display: grid;
     grid-template-columns: 30% 30% 30%;
@@ -110,6 +123,7 @@ main {
     justify-content:space-around;
 }
 
+/* format image section */
 img {
     padding-left: 1cm;
     padding-bottom: 1cm;
@@ -118,18 +132,23 @@ img {
     display: inline;
 }
 
+/* format video section */
 video {
     width: 50%;
 }
 
+/* format audio section */
 audio {
     padding: 0 0 1cm;
 }
+
+/* format form section */
 form {
     background-color: white;
     font-family: raleway;
 }
 
+/* media query */
 @media screen and (max-width: 1000px) {
     body {
         background-color: #d0f5f1;
