@@ -109,3 +109,37 @@ audio {
 form {
     background-color: white;
 }
+
+@media screen and (max-width: 1000px) {
+    body {
+        background-color: #d0f5f1;
+    }
+
+    header {
+        color: #7cbfb2;
+    }
+
+    h1 {
+        color: hsl(179, 42%, 33%);
+    }
+
+    .stats {
+        background-color: #defafc;
+    }
+
+    h2 {
+        color: #50ada7;
+    }
+
+    .break {
+        background-color: #9de3e0;
+    }
+
+    hr {
+        border-color: #a1e6e0;
+    }
+
+    a {
+        color: rgb(50, 168, 160);
+    }
+}
