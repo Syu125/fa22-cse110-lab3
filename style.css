@@ -26,6 +26,13 @@ h1:active {
     text-decoration: underline wavy;
 }
 
+.stats {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
+    background-color: #deeafc;
+}
 h2 {
     color: #507bad;
     position: sticky;
@@ -57,11 +64,16 @@ hr {
 
 }
 
-nav, a{
-    color: rgb(50,107,168);
+nav{
     margin: auto;
     display: inline-block;
     display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+a {
+    color: rgb(50,107,168);
 }
 
 a:hover {
@@ -72,8 +84,11 @@ main {
     margin-left: 2%;
 }
 
-section {
-    margin-bottom: 3%;
+.logistics {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    place-items: center;
+    justify-content:space-around;
 }
 
 img {
