@@ -1,7 +1,7 @@
 /* font for page */
 @font-face {
     font-family: raleway;
-    src: url(/Raleway-Regular.woff);
+    src: url("Raleway-Regular.woff");
 }
 
 /* entire page background color */
