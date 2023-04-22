@@ -9,15 +9,6 @@ body {
     background-color: #d0dff5;
 }
 
-/* specify font for paragraphs and lists */
-p {
-    font-family: raleway;
-}
-
-li {
-    font-family: raleway;
-}
-
 /* style section line breaks */
 hr {
     height: 1px;
@@ -37,25 +28,29 @@ header {
     text-align: center;
 }
 
+header p {
+    color: black;
+}
+
 h1 {
     color: hsl(212, 42%, 33%);
     margin-top: 40px;
     margin-left: 20px;
     text-align: center;
     position: relative;
-    font-family: raleway;
+    /*font-family: raleway;*/
 }
 
 h1:active {
     color: white;
 }
 
-.recordedby {
+p.recordedby {
     text-decoration: underline wavy;
 }
 
 /* style title header line */
-.headerline {
+#headerline {
     height: 1px;
     border-style: groove;
     border-width: 5px;
@@ -80,7 +75,11 @@ nav{
 
 a {
     color: rgb(50,107,168);
-    font-family: raleway;
+    /*font-family: raleway;*/
+}
+
+a[href*="https"] {
+    color:palevioletred;
 }
 
 a:hover {
@@ -91,19 +90,19 @@ main {
     margin-left: 2%;
 }
 
+/* specify font */
+* h1, h2, h3, p, li, a, form{
+    font-family: raleway;
+}
 /* specific styles for section headers */
 h2 {
     color: #507bad;
     position: sticky;
-    font-family: raleway;
+    /*font-family: raleway;*/
 }
 
 h2:active {
     color: white;
-}
-
-h3 {
-    font-family: raleway;
 }
 
 /* style for date and attendance sections*/
@@ -115,12 +114,28 @@ h3 {
     background-color: #deeafc;
 }
 
+.stats > section {
+    color: coral;
+}
+
 /* format agenda sections */
 .logistics {
     display: grid;
     grid-template-columns: 30% 30% 30%;
     place-items: center;
     justify-content:space-around;
+}
+
+.logistics #unfinished {
+    color:red;
+}
+
+.logistics #upcoming {
+    color:green;
+}
+
+input ~ label {
+    color:peru;
 }
 
 /* format image section */
@@ -137,6 +152,10 @@ video {
     width: 50%;
 }
 
+video + p {
+    font-weight: bold;
+}
+
 /* format audio section */
 audio {
     padding: 0 0 1cm;
@@ -145,7 +164,7 @@ audio {
 /* format form section */
 form {
     background-color: white;
-    font-family: raleway;
+    /*font-family: raleway;*/
 }
 
 /* media query */
